@@ -1,9 +1,3 @@
-# Read Me!
-Classifying Cancerous Genetic Mutation Variations
-
-## About
-For this project, I used a variety of classification models to categorize the malignancy of genetic mutation variations based on data derived from the text of expertly annotated scientific literature. The ultimate ensemble classification model is based on exploration using Multinomial Naive Bayes, Logistic Regression, Linear SVMs, and Random Forests.
-
 ## Data
 Data come from a [Kaggle Competition](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data) sponsored by [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org). Using the contest's nomenclature, *training data* include expert-defined class identification (i.e., Class 1-9), and *test data* (with no class identification) are used to to for scoring the competition. Therefore, I split the provided *training data* for training and testing my models.
 
